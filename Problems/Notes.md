@@ -15,3 +15,12 @@
 	- Function design was clean and modular  
 	- Could be improved by optimizing the loop up to sqrt(N)
 	- No bugs or confusion, logic was straightforward
+---
+## Problem 3 - Perfect Number Check
+	- Checked if the number is perfect by calculating the sum of its divisors  
+	- Used an `enum` to define Perfect and NotPerfect statuses  
+	- Optimized the divisor check by looping up to Number / 2  
+	- Displayed the result in a clean and readable format  
+	- Could be optimized further using the fact that divisors come in pairs (sum of divisors optimization)
+	- Used `auto` for automatic type deduction and `const` for immutability 
+	- No issues encountered during the implementation
