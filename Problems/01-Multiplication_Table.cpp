@@ -1,6 +1,26 @@
 #include <iostream>
 using namespace std;
 
+/*
+    Program Name   : Multiplication Table Generator
+    Description    : This program prints a formatted multiplication table from 1 to 10,
+                     displaying the products of numbers in a clean tabular format.
+
+    Details        : The table includes a header row and separator lines for clarity.
+                     It uses nested loops to compute and display multiplication values.
+                     Proper spacing and alignment are handled dynamically based on the row number.
+
+    Example        : 
+                     Output Sample:
+                         1   2   3   4   ... 10
+                      1 | 1   2   3   4   ... 10
+                      2 | 2   4   6   8   ... 20
+                      ...
+                     10 | 10 20 30 ...       100
+
+*/
+
+
 void PrintTableHeader()
 {
     cout << "\n\n\t\t\t Multiplication Table From 1 to 10\n\n";

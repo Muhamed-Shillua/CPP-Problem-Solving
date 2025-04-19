@@ -2,6 +2,20 @@
 #include <string>
 using namespace std;
 
+/*
+    Program Name   : Perfect Number Finder
+    Description    : This program reads a positive integer from the user,
+                     then iterates through all numbers from 1 to that integer,
+                     and prints only the perfect numbers.
+
+    A perfect number is defined as a positive integer that is equal to
+    the sum of its proper positive divisors, excluding itself.
+
+    Example        : 6 -> 1 + 2 + 3 = 6  (Perfect)
+                     28 -> 1 + 2 + 4 + 7 + 14 = 28 (Perfect)
+                     10 -> 1 + 2 + 5 = 8 (Not Perfect)
+*/
+
 // Enum to represent the status of a perfect number
 enum enPerfectStatus
 {
