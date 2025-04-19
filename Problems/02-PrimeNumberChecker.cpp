@@ -2,6 +2,21 @@
 #include <string>
 using namespace std;
 
+/*
+    Program Name   : Prime Number Finder
+    Description    : This program reads a positive integer from the user,
+                     then iterates through all numbers from 1 to that integer,
+                     and prints only the prime numbers.
+
+    A prime number is defined as a positive integer greater than 1
+    that is only divisible by 1 and itself.
+
+    Example        : 7 -> Prime
+                     4 -> Not Prime
+                     13 -> Prime
+*/
+
+
 enum enPrimeStatus
 {
     Prime = 1,
