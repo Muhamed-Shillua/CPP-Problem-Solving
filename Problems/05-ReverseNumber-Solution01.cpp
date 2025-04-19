@@ -3,7 +3,7 @@
 using namespace std;
 
 /*
-    Program Name   : Reverse Number
+    Program Name   : Reverse Number Solution 01
     Description    : This program reads a positive integer from the user,
                      reverses the digits of the number, and prints the result.
 
