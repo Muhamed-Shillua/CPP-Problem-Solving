@@ -6,7 +6,7 @@ These exercises are designed to sharpen core programming concepts, logical think
 ## Folder Structure
 
 - `Problems/`: Contains individual `.cpp` files, each solving a specific problem.
-- `Notes/`: Personal notes, useful patterns, and concepts learned along the way.
+	All relevant explanations and observations are now included as comments inside each problem file.
 
 ## Goal
 
