@@ -25,4 +25,4 @@ The focus is on:
 ---
 
 **Language**: C++  
-**Topics**: Algorithms, Data Structures, Logic Building
+**Topics**: Algorithms, Data Structures, Logic Building.
