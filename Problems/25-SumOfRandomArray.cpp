@@ -69,7 +69,7 @@ void SumOfArrayElements(int Array[], short ArrayLength)
 
     cout << "\nThe Sum of ";
     PrintArrayElements(Array, ArrayLength); // Print Sum and the array itself
-    cout << " Elements = " << Sum << endl;
+    cout << " Elements = " << Sum << endl; //  To Calculate the average,Simply divide the sum by the array length
 }
 
 int main()
