@@ -1,28 +1,38 @@
 # C++ Problem Solving
 
-A growing collection of problem-solving exercises written in C++.  
-These exercises are designed to sharpen core programming concepts, logical thinking, and coding fluency.
+A growing collection of C++ problem-solving exercises focused on mastering core programming concepts through clean, reusable, and well-documented code.
 
-## Folder Structure
+## 📁 Folder Structure
 
-- **`Problems/`**: Contains individual `.cpp` files, each solving a specific problem.  
-  All relevant explanations, observations, and notes are now included as comments inside each problem file.
+- **`Problems/`** — Contains standalone `.cpp` files, each solving a specific problem.  
+  Every file includes detailed inline comments explaining the logic and approach used.
 
-## Goal
+##  Goal
 
-To strengthen my fundamentals in C++ through consistent practice and detailed documentation within each problem.
+To solidify my understanding of C++ fundamentals through hands-on practice and consistent documentation of logic, structure, and style.
 
-## Coding Style
+##  Solution Philosophy
 
-All solutions are written following the principles of **Clean Code** book.  
-The focus is on:
+Each solution emphasizes:
+- **Reusability** — Common functionalities are abstracted into reusable functions to avoid redundancy.
+- **Modularity** — Code is split into clear, logical blocks that handle distinct tasks.
+- **Maintainability** — Clean structure and meaningful naming make the code easy to navigate and update.
 
-- **Readability**: Writing code that is easy to understand for anyone who reads it.
-- **Clarity**: Ensuring that every function and variable name is descriptive and meaningful.
-- **Simplicity**: Keeping the code simple and avoiding unnecessary complexity.
-- **Commenting**: Using comments wisely to explain complex logic or important parts of the code, but avoiding redundant or obvious comments.
+This reuse-first approach leads to better structure, faster development, and more reliable debugging.
 
----
+##  Coding Style
 
-**Language**: C++  
-**Topics**: Algorithms, Data Structures, Logic Building.
+The code follows principles inspired by *Clean Code*:
+-  **Readable**: Easy to follow without extra effort.
+-  **Descriptive**: Functions and variables are clearly named.
+-  **Simple**: Unnecessary complexity is avoided.
+-  **Minimal Comments**: Comments are used where clarity is needed — no redundancy.
+
+## ▶️ How to Run
+
+1. Clone the repo.
+2. Compile any `.cpp` file using a C++ compiler.
+3. Example using g++:
+   ```bash
+   g++ Problems/Problem_001.cpp -o Problem_001
+   ./Problem_001
