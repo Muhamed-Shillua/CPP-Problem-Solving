@@ -13,7 +13,6 @@ using namespace std;
          Once the correct password is found, it reports the number of trials taken to find it.
 */
 
-
 string ReadPassword(string PromptMessage)
 {
     string InputPassword = "";
