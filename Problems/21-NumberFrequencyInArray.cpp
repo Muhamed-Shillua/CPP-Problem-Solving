@@ -25,7 +25,7 @@ int ReadNumber(string Message)
     return Number;
 }
 
-void ReadArrayElements(int Array[], short& ArrayLength)
+void FillArrayWithElements(int Array[], short& ArrayLength)
 {
     ArrayLength = ReadNumber("Enter Number Of Array Elements: ");
 
@@ -77,7 +77,7 @@ int main()
     int Array[100];
     short ArrayLength, NumberToCheck;
 
-    ReadArrayElements(Array, ArrayLength);
+    FillArrayWithElements(Array, ArrayLength);
 
     PrintArrayElements(Array, ArrayLength);
 

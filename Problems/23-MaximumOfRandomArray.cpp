@@ -37,8 +37,8 @@ int GenerateRandomNumber(int From, int To)
     return (rand() % (To - From + 1)) + From;  // Generate a number in the range [From, To]
 }
 
-// Function to read array elements number from the user (in this case, fill them with randomly)
-void ReadArrayElements(int Array[], short& ArrayLength)
+// Fill Array With Elements number from the user (in this case, fill them with randomly)
+void FillArrayWithElements(int Array[], short& ArrayLength)
 {
     ArrayLength = ReadNumber("Enter Number Of Array Elements: ");  
 
@@ -89,7 +89,7 @@ int main()
     short ArrayLength;
 
     // Read the array elements
-    ReadArrayElements(Array, ArrayLength);
+    FillArrayWithElements(Array, ArrayLength);
 
     // Find and print the maximum value in the array
     MaxOfArray(Array, ArrayLength);

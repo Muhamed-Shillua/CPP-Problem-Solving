@@ -34,8 +34,8 @@ int GenerateRandomNumber(int From, int To)
     return (rand() % (To - From + 1)) + From;  // Generate a number in the range [From, To]
 }
 
-// Function to read array elements from the user (in this case, fill them with random numbers)
-void ReadArrayElements(int Array[], short& ArrayLength)
+// Fill array elements from the user (in this case, fill them with random numbers)
+void FillArrayWithElements(int Array[], short& ArrayLength)
 {
     ArrayLength = ReadNumber("Enter Number Of Array Elements: ");  // Ask user for the number of elements
 
@@ -67,7 +67,7 @@ int main()
     int Array[100];  
     short ArrayLength, NumberToCheck;
 
-    ReadArrayElements(Array, ArrayLength);  
+    FillArrayWithElements(Array, ArrayLength);  
     PrintArrayElements(Array, ArrayLength); 
 
     return 0;  // End of the program

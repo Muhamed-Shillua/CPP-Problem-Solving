@@ -36,7 +36,7 @@ int GenerateRandomNumber(int From, int To)
 }
 
 // Fills the given array with random integers between 1 and 100
-void ReadArrayElements(int Array[], int ArrayLength)
+void FillArrayWithElements(int Array[], int ArrayLength)
 {
     for (int i = 0; i < ArrayLength; i++)
     {
