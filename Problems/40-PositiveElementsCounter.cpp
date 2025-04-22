@@ -65,7 +65,7 @@ short CountPositiveElements(int Array[], short& ArrayLength)
     // Loop through each element of the array
     for (int index = 0;index < ArrayLength;index++)
     {
-        if (Array[index] > 0)
+        if (Array[index] > 0)  //if i want to count Negative elemnts change condition to (Array[index] < 0)
         {
             Counter++;
         }
