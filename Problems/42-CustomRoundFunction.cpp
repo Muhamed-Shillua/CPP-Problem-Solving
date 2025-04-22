@@ -24,19 +24,16 @@ float ReadNumber(string Message)
     return Number;
 }
 
-// Extracts and returns the fractional part of a float number
-float GetFractionPart(float Number)
-{
-    return Number - (int)Number;
-}
-
 // Manually rounds a float number based on its fractional part
 int MyRound(float Number)
 {
-    float FractionPart = GetFractionPart(Number);
     int IntPart = (int)Number;
+    float FractionPart = abs(Number - IntPart);
 
-    return (FractionPart >= 0.5) ? IntPart + 1 : IntPart;
+    if (Number >= 0)
+        return (FractionPart >= 0.5) ? IntPart + 1 : IntPart;
+    else
+        return (FractionPart >= 0.5) ? IntPart - 1 : IntPart;
 }
 
 int main()
