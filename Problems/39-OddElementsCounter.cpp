@@ -65,7 +65,7 @@ short CountOddElements(int Array[], short& ArrayLength)
     // Loop through each element of the original array
     for (int index = 0;index < ArrayLength;index++)
     {
-        if (Array[index] % 2 != 0)
+        if (Array[index] % 2 != 0)	//if i want to count even elemnts change condition to (Array[index]%2 ==0)
         {
             Counter++;
         }
